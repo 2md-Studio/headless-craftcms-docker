@@ -1,0 +1,41 @@
+dateModified: 1635980464
+email:
+  fromEmail: hello@spon.io
+  fromName: Craft
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    command: ''
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
+    5da841b1-ca0d-46ff-8bb1-04d6c889ac54: $SITE_NAME # $SITE_NAME
+    54e60257-f31a-44aa-960e-bbd364197e28: Homepage # Homepage
+    94b4d5ac-d7ea-4241-a6cb-92b39f482f99: Common # Common
+    e77d393f-8218-45a4-af6a-91ca4a3c41d2: 'Public Schema' # Public Schema
+    f89601e9-4ba9-4a48-9e99-350aa9914912: $SITE_NAME # $SITE_NAME
+    fb3a8f31-d1cc-4c13-903b-a501f7e51f54: Homepage # Homepage
+plugins:
+  fastcgi-cache-bust:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: $PLUGIN_SEOMATIC_LICENSE
+    schemaVersion: 3.0.11
+system:
+  edition: pro
+  live: true
+  name: Project
+  retryDuration: 60
+  schemaVersion: 3.7.8
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
